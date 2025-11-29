@@ -8,7 +8,7 @@ import { Search, Send } from "lucide-react";
 import { toast } from "sonner";
 
 const Index = () => {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState(""); 
   const [suggestion, setSuggestion] = useState("");
 
   const filteredQuizzes = quizzes.filter(
