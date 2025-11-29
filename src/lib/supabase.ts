@@ -1,6 +1,6 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = 'SUPABASE_URL_BURAYA' // örnek: https://xyzcompany.supabase.co
+const supabaseUrl = 'https://tjgaskhafefygiztmffg.supabase.co' // örnek: https://xyzcompany.supabase.co
 const supabaseAnonKey = 'SUPABASE_ANON_KEY_BURAYA'
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
